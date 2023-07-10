@@ -1,0 +1,25 @@
+/*--- Estilos boton crear tarea ---*/
+.create-btn {
+    background-color: #61DAFB;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 9;
+}
+
+.create-btn:hover {
+    transform: rotate(224deg);
+}

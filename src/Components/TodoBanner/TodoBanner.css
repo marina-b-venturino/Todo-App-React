@@ -1,0 +1,30 @@
+/*--- Estilos contenedor del banner ---*/
+.TodoBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*--- Titulo del bannner ---*/
+.TodoTitle {
+    text-align: center;
+    color: #61DAFB;
+    font-size: 50px;
+}
+/*--- Estilos imagenes ---*/
+.React-img {
+    width: 110px;
+    margin: 0 90px;
+}
+/*--- Animacion de las imagenes ---*/
+.rotating-img {
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

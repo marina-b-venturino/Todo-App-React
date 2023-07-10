@@ -1,0 +1,23 @@
+/*--- Estilos buscador ---*/
+input {
+    border: transparent;
+    -webkit-box-shadow: inset 0px 0px 38px -24px rgba(20,158,202,1);
+-moz-box-shadow: inset 0px 0px 38px -24px rgba(20,158,202,1);
+box-shadow: inset 0px 0px 38px -24px rgba(20,158,202,1);
+    width: 600px;
+    height: 55px;
+    background-color: #16181d;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: 18px;
+    display: block;
+    margin: auto;
+}
+/*--- Estilo placeholder del buscador ---*/
+input::placeholder {
+    font-size: 20px;
+}
+/*--- Estilo contenedor del buscador ---*/
+div {
+    margin-bottom: 60px;
+}

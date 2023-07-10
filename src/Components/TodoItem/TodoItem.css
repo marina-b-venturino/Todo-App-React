@@ -1,0 +1,64 @@
+/*--- Estilos generales de los botones ---*/
+.Icon {
+    border-radius: 30px;
+    padding: 7px;
+    background-color: #16181d; 
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--- Boton check tarea ---*/
+.Icon-check {
+    position: absolute;
+    left: 20px;
+    color: #16181d;
+}
+
+.Icon-check--active {
+    background-color: #61DAFB;
+    border: 1px solid #61DAFB;
+    color: #fff; 
+}
+
+.Icon-check:hover {
+    opacity: 0.7;
+}
+/*--- Estilo letra tarea ---*/
+.TodoItem-p {
+    font-size: 20px;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+/*--- Boton borrar tarea ---*/
+.Icon-delete {
+    position: absolute;
+    right: 0px;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    background-color: #D21312;
+    border: 1px solid #D21312;
+    top: -12px;
+}
+
+.Icon-delete:hover {
+    opacity: 0.7;
+}
+/*--- Estilos card tareas ---*/
+.TodoItem {
+    background-color: #000;
+    -webkit-box-shadow: 0px 0px 34px -12px #149eca78;
+-moz-box-shadow: 0px 0px 34px -12px #149eca78;
+box-shadow: 0px 0px 34px -12px #149eca78;
+    margin-bottom: 30px;
+    height: 80px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
